@@ -115,8 +115,11 @@ p{
 }
 
 #hangman-img {
-    width: 45%;
+    width: 40%;
     float: right;
+    border: 2px solid black;
+    padding: 10px;
+
 }
 
 #hangman-text {
@@ -127,8 +130,11 @@ p{
 }
 
 #tictactoe-img {
-    width: 45%;
+    width: 40%;
     float: left;
+    border: 2px solid black;
+    padding: 10px;
+
 }
 #tictactoe-text {
     width: 40%;
@@ -141,6 +147,8 @@ p{
 #bakingSite-img {
     width: 40%;
     float: right; 
+    border: 2px solid black;
+   padding: 10px;
 }
 
 #bakingSite-text {
