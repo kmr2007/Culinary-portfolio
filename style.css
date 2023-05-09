@@ -1,0 +1,165 @@
+
+body {
+margin: auto;
+background-color: rgb(255, 255, 255);}
+
+.nav-bar {
+    width: auto;
+    height: 40px;
+    background-color: #303030;
+
+}
+
+.nav-bar-head {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Roboto-Med;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.nav-bar-item {
+    font-family: Roboto-Light;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    margin: 7px;
+    float: right;
+   
+}
+
+.center {
+    text-align: center;
+}
+.large-text-body {
+    margin: 40px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+#culinary-xp {
+    width: 45%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+#compSci-xp {
+    width: 45%;
+float: right;
+padding: 10px;
+text-align: center;
+}
+
+.photos-xp {
+    width: 30%;
+    height: 40%;
+}
+
+h1 {
+    font-family: Roboto-Med;
+    padding-top: 30px;
+}
+p{
+    font-family: Roboto-Light;
+}
+#mac-img-div {
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.mac-imgs {
+    width: 16%;
+
+}
+#cake-img-div {
+    width: 100%;
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.cake-imgs {
+    width: 30%;
+    max-width: 300px;
+}
+
+#class-img-div {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.class-imgs {
+    width: 20%;
+    height: 40%;
+    max-width: 300px;
+
+}
+.programs-div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 30%;
+}
+
+#hangman-img {
+    width: 45%;
+    float: right;
+}
+
+#hangman-text {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+
+#tictactoe-img {
+    width: 45%;
+    float: left;
+}
+#tictactoe-text {
+    width: 40%;
+ text-align: center;
+ float: right;
+ padding-left: 5%;
+ padding-right: 5%;
+}
+
+#bakingSite-img {
+    width: 40%;
+    float: right; 
+}
+
+#bakingSite-text {
+    width: 45%;
+    padding-top: 10%;
+ text-align: center;
+
+}
+
+
+
+
+/* Fonts */
+@font-face {
+    font-family: Roboto-Med;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
