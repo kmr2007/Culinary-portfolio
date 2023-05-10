@@ -61,7 +61,7 @@ text-align: center;
 
 .photos-xp {
     width: 30%;
-    height: 40%;
+    border: 2px solid rgba(153, 153, 153, 0.527);
 }
 
 h1 {
